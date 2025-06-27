@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js (Frontend)
+optiflow_frontend/node_modules/
+optiflow_frontend/.next/
+optiflow_frontend/out/
+optiflow_frontend/dist/
+optiflow_frontend/.env
+optiflow_frontend/.env.local
+optiflow_frontend/.env.development.local
+optiflow_frontend/.env.test.local
+optiflow_frontend/.env.production.local
+
+# ML Models (keep track but ignore large files if needed)
+# models/*.pkl
+
+# Backup files
+*.sql
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.temp
